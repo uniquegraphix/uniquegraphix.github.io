@@ -1,0 +1,236 @@
+#home{
+width: 100%;
+height: 100vh;
+text-align:center;
+background-image:url('../images/bg1.jpg');
+background-size:cover;
+background-attachment: fixed;
+}
+.h-content{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-family: 'Montserrat', sans-serif;
+color: white;
+
+}
+.parallex{
+background-image:url('../images/parallex.jpg');
+height: 100%;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+color:white;
+}
+.parallex2{
+background-image:url('../images/paral.jpg');
+height: 100vh;
+width: 100%;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+color:white;
+}
+.address
+{
+color:white;
+font-size:22px;
+text-align:justify;
+text-decoration: none;
+}
+.social-icons{
+font-size:30px;
+padding-top:px;
+color: black;
+}
+#pl{
+text-align: justify;
+padding-left: 50px;
+}
+#whatid{
+width: 100%;
+height: 100vh;
+}
+#about{
+width: 100%;
+ 
+}
+#experience{
+width: 100%;
+height: auto;
+overflow-x:hidden;
+}
+.ico-1 {
+border-radius: 100px 7px 100px 0px;
+-moz-border-radius: 100px 7px 100px 0px;
+-webkit-border-radius: 100px 7px 100px 0px;
+border: 10px outset #000000;
+color:#FF851B;
+display: inline-block;
+font-size:55px;
+height: 200px;
+line-height: 190px;
+width: 200px;
+background-color: black;
+-webkit-transition:  0.2s ease;
+transition: 0.2s ease;
+}
+.ico-1:hover{
+background-color:dimgray;
+}
+.ico-2 {
+border-radius: 0px 100px 0px 0px;
+-moz-border-radius: 0px 100px 0px 0px;
+-webkit-border-radius: 0px 100px 0px 0px;
+border: 10px outset #000000;
+color:#FF851B;
+display: inline-block;
+font-size:55px;
+height: 200px;
+line-height: 190px;
+width: 200px;
+background-color: black;
+-webkit-transition:  0.2s ease;
+transition: 0.2s ease;
+}
+.ico-2:hover{
+background-color:dimgray;
+}
+.ico-3 {
+border-radius: 0px 100px 0px 100px;
+-moz-border-radius: 0px 100px 0px 100px;
+-webkit-border-radius: 0px 100px 0px 100px;
+border: 10px outset #000000;
+color:#FF851B;
+display: inline-block;
+font-size:55px;
+height: 200px;
+line-height: 190px;
+width: 200px;
+background-color: black;
+-webkit-transition:  0.2s ease;
+transition: 0.2s ease;
+}
+.ico-3:hover{
+background-color:dimgray;
+}
+.ico-4 {
+border-radius: 100px 0px 0px 0px;
+-moz-border-radius: 100px 0px 0px 0px;
+-webkit-border-radius: 100px 0px 0px 0px;
+border: 10px outset #000000;
+color:#FF851B;
+display: inline-block;
+font-size:55px;
+height: 200px;
+line-height: 190px;
+width: 200px;
+background-color: black;
+-webkit-transition:  0.2s ease;
+transition: 0.2s ease;
+}
+.ico-4:hover{
+background-color:dimgray;
+}
+#skills{
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+background-size: cover;
+max-height:auto;
+background: linear-gradient(
+to right,
+#000000 0%,
+#000000 50%,
+#101010 50%,
+#101010 100%
+);
+}
+#contact{
+width: 100%;
+height: 800px;
+overflow-x:hidden;
+}
+#con {
+padding-right:0;
+padding-left:0;
+margin-right:auto;
+margin-left:auto;
+overflow-x:hidden;
+}
+body{
+margin: 0;
+padding: 0;
+}
+.load{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+html,body{
+background:#000;
+margin:0;
+}
+#centered{
+width:400px;
+height:400px;
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+background:#000;
+filter: blur(15px) contrast(20);
+}
+.blob-1,.blob-2, .blob-3, .blob-4{
+width:50px;
+height:50px;
+position:absolute;
+background:#fff;
+border-radius:50%;
+top:50%;left:50%;
+transform:translate(-50%,-50%);
+}
+.blob-1{
+left:20%;
+animation:osc-l 2.5s ease infinite;
+}
+.blob-2{
+left:80%;
+animation:osc-r 2.5s ease infinite;
+background:cyan;
+}
+.blob-3{
+top:20%;
+animation:osc-t 2.5s ease infinite;
+background:yellow;
+}
+.blob-4{
+top:80%;
+animation:osc-d 2.5s ease infinite;
+background:lime;
+}
+@keyframes osc-l{
+0%{left:20%;}
+50%{left:50%;}
+100%{left:20%;}
+}
+@keyframes osc-r{
+0%{left:80%;}
+50%{left:50%;}
+100%{left:80%;}
+}
+@keyframes osc-t{
+0%{top:20%;}
+50%{top:50%;}
+100%{top:20%;}
+}
+@keyframes osc-d{
+0%{top: 80%;}
+50%{top: 50%;}
+100%{top:80%;}
+}
