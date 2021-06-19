@@ -1,2 +1,2 @@
-# akashrawat7.github.io
-my website akashrawat7.github.io
+# uniquegraphix.github.io
+my website uniquegraphix.github.io
