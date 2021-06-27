@@ -38,32 +38,14 @@
 		</style>
 		
 		<script>
-		var myvar;
-			var referrer =  document.referrer;
-  v                  ar domain = document.domain;
-		function myfunction(){
-			
-		myvar=setTimeout(showpage,7000);
-		document.getElementById('bodd').style.background="black";
-		}
- if(referrer.indexOf(domain)<0){
-			function showpage(){
-		document.getElementById('centered').style.display="none";
-		document.getElementById("con").style.display = "block";
-		document.getElementById('bodd').style.background="none";
+		
 		new WOW().init();
-		}  
-		}
+		
 		</script>
 		
 	</head>
-	<body onload="myfunction()" id="bodd" style="margin:0; font-family: Helvetica, sans-serif;">
-		<div id = "centered">
-			<div class = "blob-1"></div>
-			<div class = "blob-2"></div>
-			<div class = "blob-3"></div>
-			<div class = "blob-4"></div>
-		</div>
+	<body font-family: Helvetica, sans-serif;">
+		
 		<!-------------------------- Navbar ------------------------------------------------------>
 		<div class="container-fluid" id="con" style="display:none; margin:0; padding:0;" >
 			
