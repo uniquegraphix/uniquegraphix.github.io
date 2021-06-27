@@ -39,16 +39,14 @@
 		
 		<script>
 		var myvar;
-			 var referrer =  document.referrer;
-  var domain = document.domain;
-  if(referrer.indexOf(domain)<0){  //if refer from curent domain. 
-    
-
- 
+			var referrer =  document.referrer;
+  v                  ar domain = document.domain;
 		function myfunction(){
+			
 		myvar=setTimeout(showpage,7000);
 		document.getElementById('bodd').style.background="black";
-
+		}
+ if(referrer.indexOf(domain)<0){
 			function showpage(){
 		document.getElementById('centered').style.display="none";
 		document.getElementById("con").style.display = "block";
